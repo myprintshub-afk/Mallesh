@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandini weds Madhan - Wedding Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fffaf3, #fde8e9);
+      color: #3d1f1f;
+      overflow-x: hidden;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #800000, #b22222);
+      color: #fff8dc;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+      animation: slideDown 1.2s ease-out;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.5em;
+      margin: 0;
+      color: gold;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    }
+
+    header p {
+      font-size: 1.2em;
+      line-height: 1.8em;
+      color: #fff8dc;
+    }
+
+    .photo-placeholder {
+      width: 220px;
+      height: 220px;
+      background: #fff;
+      border-radius: 50%;
+      margin: 25px auto;
+      border: 4px solid gold;
+      background-image: url('images/bride-groom.jpg'); /* replace with your image */
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 0 25px rgba(0,0,0,0.25);
+      animation: fadeInUp 1.5s ease-out;
+    }
+
+    .grandparents {
+      font-size: 1.1em;
+      color: #fff;
+      margin-top: 15px;
+      letter-spacing: 0.3px;
+      background: rgba(255, 215, 0, 0.15);
+      display: inline-block;
+      padding: 8px 15px;
+      border-radius: 8px;
+    }
+
+    .invite-text {
+      font-size: 1.15em;
+      color: #fff8dc;
+      margin-top: 15px;
+      line-height: 1.7em;
+    }
+
+    .highlight-names {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.6em;
+      color: gold;
+      font-weight: bold;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+
+    .with-text {
+      font-size: 1.6em;
+      color: #fff8dc;
+      font-weight: 500;
+      margin: 5px 0;
+    }
+
+    section {
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .countdown {
+      font-size: 2em;
+      font-weight: 600;
+      color: maroon;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); color: goldenrod; }
+      100% { transform: scale(1); }
+    }
+
+    .quote {
+      font-style: italic;
+      color: #444;
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+
+    .event {
+      background: #fff;
+      margin: 20px auto;
+      padding: 25px;
+      border-radius: 12px;
+      max-width: 520px;
+      box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .event:hover {
+      transform: scale(1.03);
+    }
+
+    .event h3 {
+      color: maroon;
+      margin-bottom: 10px;
+    }
+
+    .whatsapp, .save-date {
+      display: inline-block;
+      margin: 15px 10px;
+      padding: 12px 22px;
+      background: maroon;
+      color: gold;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .whatsapp {
+      background: #25d366;
+      color: white;
+    }
+
+    .whatsapp:hover, .save-date:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      color: #444;
+      background: #fde8e9;
+      border-top: 1px solid #d4b59a;
+      margin-top: 30px;
+      animation: glowText 2s infinite alternate;
+    }
+
+    footer a {
+      color: maroon;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @keyframes glowText {
+      0% { color: maroon; text-shadow: 0 0 5px gold; }
+      100% { color: goldenrod; text-shadow: 0 0 15px maroon; }
+    }
+
+    @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+    @keyframes slideDown { from {transform: translateY(-50px); opacity: 0;} to {transform: translateY(0); opacity: 1;} }
+    @keyframes fadeInUp { from {transform: translateY(40px); opacity: 0;} to {transform: translateY(0); opacity: 1;} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wedding Invitation</h1>
+
+    <div class="photo-placeholder"></div>
+
+    <p class="grandparents">
+      Sri Banda Venkataiahgari Satyanarayana & Smt. Banda Jayamma
+    </p>
+
+    <p class="invite-text">
+      Soliciting your gracious presence with family & friends<br>
+      on the auspicious occasion of the marriage of our Granddaughter
+    </p>
+
+    <p class="highlight-names">Nandini</p>
+    <p>(Only D/o Sri Banda Mallesh & Smt. Renuka)</p>
+
+    <p class="with-text">with</p>
+
+    <p class="highlight-names">Madhan Kumar</p>
+    <p>(Only S/o Sri Kankuri Mallesh & Smt. Amrutha)</p>
+  </header>
+
+  <section>
+    <h2>Countdown to Wedding</h2>
+    <div id="wedding-countdown" class="countdown"></div>
+    <p class="quote">“Two souls, one heart, bound together forever.”</p>
+  </section>
+
+  <section>
+   <div class="event">
+    <div class="event">
+      <h3> Pellikuthuru</h3>
+      <p>Date: 13th November 2025</p>
+      <p>Time: 11:00 AM</p>
+      <p>Venue: At Our Residence</p>
+      
+    </div>
+    <div class="event">
+      <h3> Haldi</h3>
+      <p>Date: 13th November 2025</p>
+      <p>Time: 03:00 PM</p>
+      <p>Venue: At Our Residence</p>
+    
+    </div>
+      <h3>🕉️ Wedding Ceremony</h3>
+      <p>Date: 15th November 2025</p>
+      <p>Time: 11:29 AM</p>
+      <p>Venue: Satya Gowri Convention </p>
+      <p><a href="https://maps.app.goo.gl/HJzpmSRudeJYTGcd7">📍 View Location</a></p>
+    </div>
+  </section>
+
+  <section>
+    <a href="https://wa.me/919505144144" target="_blank" class="whatsapp">📲 Contact on WhatsApp</a>
+  </section>
+
+  <footer>
+    Crafted with ❤️ by <a href="#">Mallikarjuna Wedding Cards</a> ✨
+  </footer>
+
+  <script>
+    const weddingDate = new Date("Nov 15, 2025 11:29:00").getTime();
+    const x = setInterval(function() {
+      let now = new Date().getTime();
+      let distance = weddingDate - now;
+
+      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance >= 0) {
+        document.getElementById("wedding-countdown").innerHTML =
+          days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+      } else {
+        clearInterval(x);
+        document.getElementById("wedding-countdown").innerHTML = "💍 The Wedding has begun!";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
